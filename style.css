@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 30px;
+    color: #fff;
+}
+
+.card-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 15px;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card-header p {
+    margin: 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.card-body {
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.card-body p {
+    margin-bottom: 20px;
+}
+
+#follow-btn {
+    background: #f5576c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#follow-btn:hover {
+    background: #ff8a5c;
+}
+
+.card-footer {
+    background: #fff;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.social-icons .icon {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #f5576c;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #ff8a5c;
+}
